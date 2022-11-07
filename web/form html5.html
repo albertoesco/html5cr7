@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 - CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        function updateTextImput(val) {
+            document.getElementById('textRango').value = val;
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+        </header>
+        <div id="principal">
+            <nav>
+                <!-- ul>a*9>li  -->
+                <ul>
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="parrafos.html"><li>PARRAFOS</li></a>
+                    <a href="enlaces.html"><li>ENLACES</li></a>
+                    <a href="listas.html"><li>LISTAS</li></a>
+                    <a href="tablas.html"><li>TABLAS</li></a>
+                    <a href="formularios.html"><li>FORMULARIOS</li></a>
+                    <a href="multimedia.html"><li>MULTIMEDIA</li></a>
+                    <a href="form html5.html"><li>FORM HMTL5</li></a>
+                    
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="formhtml5">
+                    <h1><class class="txt center">Formularios hml5</class></h1>
+                    <form action="pagina.php" method="post" enctype="multipart/form-data">
+                        <fieldset>
+                            <legend>Form Html5</legend>
+                            <p><input type="url" name="url" id="" placeholder="url"></p>
+                           <p><input type="email" name="email" id="" placeholder="email"></p> 
+                            <p><input type="date" name="fecha" id="" placeholder=""></p>
+                            <p><input type="datetime-local" name="fecha" id=""></p>
+                            <p><input type="month" name="mes" id=""></p>
+                           <p><input type="week" name="semana" id=""></p> 
+                            <p><input type="number" name="numero" id="" min="0" max="100" step="10"></p>
+                           <p><input type="range" name="rango" id="" min="0" max="100" step="10"
+                            onchange="updateTextInput(this.value);">
+                            <input type="text" id="textRango">
+                        </p> 
+                          
+                            <p><input type="color" name="color" id="">
+                            <p><input type="file" name="fichero" id=""></p>
+                            <p><input type="hidden" name="varoculta"></p>
+                            <p><input type="search" name="buscar" id=""></p>
+                           <p><input type="reset" value="clear"></p> 
+                        </fieldset>
+
+                    </form>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>&copy; Alberto Escobar - 31 GU4P0</footer>
+    </div>
+</body>
+</html>

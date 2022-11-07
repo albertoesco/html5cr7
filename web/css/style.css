@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    background-color: azure;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+header {
+    background-image: url(../img/siuu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#principal {
+    /* Hacemos flex para trabajar con la altura de mis hijos */
+    display: flex;
+}
+
+nav {
+    width: 20%;
+    float: left;
+}
+
+#content {
+    width: 80%;
+    float: right;
+    /* Altura igual que tu padre flex*/
+    flex: 1;
+    /* Hacemos flex para trabajar con la altura de mis hijos */
+    display: flex;
+}
+
+#home {
+    background-color: rgb(133, 133, 139);
+    /* Altura igual que tu padre flex.
+    De esta forma hemos conseguido la altura del menu
+    aunque tenga menos contenido que él
+    */
+    flex: 1;
+    text-align: center;
+    padding-top: 40px;
+}
+.cb {
+    clear: both;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+nav ul li {
+   text-align: center;
+   color: rgb(0, 0, 0);
+   font-weight: bold;
+   padding: 18px 0;
+   border-radius: 20px;
+   border: solid 2px rgb(0, 0, 0);
+}
+nav ul li:hover {
+    color:  rgb(0, 0, 0);
+    background-color: rgb(103, 102, 109);
+}
+.tag {
+    color: rgb(255, 0, 179);
+    font-size: 30px;
+    font-weight: bold;
+}
+table.toño {
+    background-color: rgb(14, 122, 122);
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+table.feo {
+    background-color: rgb(2, 2, 84);
+    color: aquamarine;
+    font-size: 24px;
+}
+table.striped {
+    background-color: rgb(255, 7, 7);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+.PROG {
+    background-color: rgb(29, 161, 182);
+}
+.BDD {
+    background-color: aqua;
+}
+.SISI {
+    background-color: yellow;
+}
+.ING {
+    background-color: rgb(37, 54, 1);
+}
+.ENDE {
+    background-color: brown;
+}
+.LMSG {
+    background-color: green;
+}
+.FOL {
+    background-color: red;
+}
+.LUN {
+    color: rgb(106, 106, 243);
+}
+.MAR {
+    color: rgb(106, 106, 243);
+}
+.MIER {
+    color: rgb(106, 106, 243);
+}
+.JUE {
+    color: rgb(106, 106, 243);
+}
+.VIE {
+    color: rgb(106, 106, 243);
+}
+.COSO {
+    color: rgb(106, 106, 243);
+}
+.RECREO {
+    text-align: center;
+    color: rgb(106, 106, 243);
+}
+.OCHO {
+    color: rgb(106, 106, 243);
+}
+.NUEVE {
+    color: rgb(106, 106, 243);
+}
+.DIEZ {
+    color: rgb(106, 106, 243);
+}
+.ONCE {
+    color: rgb(106, 106, 243);
+}
+.DOCE {
+    color: rgb(106, 106, 243);
+}
+.TRECE {
+    color: rgb(106, 106, 243);
+}
+.clase {
+    text-align: center;
+}
+.S1DAM {
+    color: rgb(106, 106, 243);
+}
+
+
